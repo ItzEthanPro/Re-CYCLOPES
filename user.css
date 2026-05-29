@@ -1,0 +1,294 @@
+/* 
+        <div class="login-sector">
+            <div class="login-box">
+                <form method="POST" class="formLogin">
+                    <h2>Login</h2>
+
+                    <div class="user-box" id="usrbox">
+                        <input type="text" name="username" id="usrinput" required>
+                        <label for="usrinput">Username</label>
+                    </div>
+
+                    <div class="user-box" id="pswbox">
+                        <input type="password" name="password" id="pswinput" required>
+                        <label for="pswinput">Password</label>
+                    </div>
+
+                    <a href="account.html" title="Login">Log-in</a>
+                </form>
+
+                <div class="login-img">
+                    <img src="blog_img/blog4img.jpg" alt="waste management" id="login-img">
+                </div>
+            </div>
+        </div>
+*/
+* {
+    box-sizing: border-box;
+}
+
+.login-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: row;
+    width: min(900px, 90vw);
+    height: 450px;
+    background: linear-gradient(to right, #000e66, #172769, #000a4d);
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+    z-index: 676767;
+}
+
+#LoginCheck:checked ~ .login-sector .login-box {
+    display: flex;
+    flex-direction: row;
+}
+
+#LoginCheck {
+    display: none;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+#login-img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    display: block;
+}
+
+.login-img {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    display: block;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+    background: #e0e0e0;
+    color: #111;
+
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.user-box {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formLogin a {
+    margin-top: 10px;
+    padding: 10px;
+
+    text-align: center;
+    text-decoration: none;
+
+    background: #de362b;
+    color: white;
+
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.formLogin a:hover {
+    background: #1F358E;
+    color: white;
+}
+
+.sgl {
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sgl:hover {
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/* Login <x> */
+/* 
+        <input type="radio" id="RegisterCheck" name="Checks">
+        <div class="register-sector">
+            <section class="register-box">
+                <div class="register-img">
+                    <img src="blog_img/blog1img.jpg" alt="waste management" id="register-img">
+                </div>
+                <form method="POST" class="formRegister">
+                    <h2>Register</h2>
+
+                    <div class="user-box" id="embox">
+                        <label for="eminput">E-mail</label><br>
+                        <input type="text" name="email" id="eminput" class="input-box" placeholder="Enter your e-mail" required>
+                    </div>
+                    <div class="user-box" id="usrbox">
+                        <label for="usrinput">Username</label><br>
+                        <input type="text" name="username" id="usrinput" class="input-box" placeholder="Enter your username" required>      
+                    </div>
+
+                    <div class="user-box" id="pswbox">
+                        <label for="pswinput">Password</label><br>
+                        <input type="password" name="password" id="pswinput" class="input-box" placeholder="Enter your password">
+                    </div>
+
+                    <div class="user-box" id="confpswbox">
+                        <label for="pswinput2">Confirm Password</label><br>
+                        <input type="password" name="password2" id="pswinput2" class="input-box" placeholder="Confirm your password">
+                    </div>
+
+                    <a href="account.html" title="Login">Sign-up</a>
+
+                    <label for="LoginCheck" class="sil">Already have an account? Sign in!</label>
+                </form>
+            </section>
+        </div>
+*/
+.register-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: row;
+    width: min(900px, 90vw);
+    height: 450px;
+    background: linear-gradient(to right, #000e66, #172769, #000a4d);
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+    z-index: 676767;
+}
+
+#RegisterCheck:checked ~ .register-sector .register-box {
+    display: flex;
+}
+
+#RegisterCheck {
+    display: none;
+}
+
+.formRegister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 50%;
+}
+
+.register-img {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    margin-right: auto;
+    display: block;
+}
+
+.register-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.formRegister a {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: #de362b;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.formRegister a:hover {
+    background: #1F358E;
+}
+
+.sil {
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sil:hover {
+    font-weight: bold;
+}
+/* Register <x> */
+
+#LoginCheck:checked ~ .register-sector {
+    display: none;
+}
+
+#RegisterCheck:checked ~ .login-sector {
+    display: none;
+}
+/* Debug <x> */
+
+/* #close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: white;
+    font-size: 48px;
+    text-decoration: none;
+    transition: 0.3s;
+} */
+/* #close-btn:hover {
+    color: #de362b;
+} */
+
+/* #CloseCheck:checked ~ .login-sector,
+#CloseCheck:checked ~ .register-sector {
+  display: none;
+}
+#CloseCheck{
+    display: none;
+}
+.CloseCheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* float: right; */
+    /* z-index: 100;
+    top: 64px;
+} */
+#LoginCheck:checked ~ .exit, #RegisterCheck:checked ~ .exit{
+    display: block;
+}
+#Exit{
+    display: none;
+}
+#Exit:checked ~ .exit{
+    display: none;
+}
+.exit {
+    position: fixed;
+    top: 78px;
+    right: 222px;
+    cursor: pointer;
+    font-size: 3rem;
+    color: #de362b;
+    z-index: 1000000;
+}

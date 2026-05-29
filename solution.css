@@ -1,0 +1,117 @@
+.solutions-all {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(#00000000, #FEFEFE, #FEFEFE), url(blog_img/blogs_hero_img_smoothed\ -\ Copy.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.solutions-all .soluctions-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.solutions-all .soluctions-card .s-card {
+    background-color: #dfdfdf;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.5s;
+    padding: 20px;
+    justify-content: center;
+}
+.solutions-all .soluctions-card .s-card:hover{
+    padding: 24px 20px;
+    border-radius: 15px;
+    transform: translateY(-20px);
+    box-shadow: 10px 10px 15px #00000083;
+}
+
+.solutions-all .soluctions-card .s-card img{
+    width: 90%;
+    height: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    transition: 0.5s;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.solutions-all .soluctions-card .s-card img:hover{
+    border-radius: 20px;
+    padding: 5px;
+    transform: translate3d(20px);
+}
+
+.solutions-all .soluctions-card .s-card .sol-b{
+    padding: 10px 20px;
+    background-color: #de363b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+transition: 0.5s; }
+
+.solutions-all .soluctions-card .s-card .sol-b:hover{
+    background-color: #1f358e;
+    padding: 12px 50px;
+    border-radius: 15px;
+    transform: translateZ(10px);
+}
+
+.solutions-all .soluctions-card .s-card h3{
+    color: #000a4e;
+    transition: 0.5s;
+}
+
+.solutions-all .soluctions-card .s-card h3:hover{
+    font-size: large;
+}
+
+.solutions-all .solution-h{
+    margin-top: 30px;
+}
+
+.solutions-all .solution-h h1{
+    font-family: "Black Ops One", system-ui;
+    color: #e0e0e0;
+    font-size: 45px;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: 10px 10px 10px #00000083;
+}
+
+.solutions-all .solution-h h1:hover{
+    border-radius: 15px;
+    transform: scale(0.9);
+    padding: 5px 10px;
+    background-color: #000a4e;
+}
+
+.solutions-all .solution-h p{
+    color: #000a4e;
+    transition: 0.5s;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.solutions-all .solution-h p:hover{
+    background-color: #000a4e;
+    padding: 10px 12px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    color: #eaeaea;
+    box-shadow: 10px 10px 10px #00000083;
+}

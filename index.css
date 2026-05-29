@@ -1,0 +1,390 @@
+html, body{
+    overflow-x: hidden;
+}
+
+
+/* hero */
+.hero-home{
+    width: 100%;
+    height: 100vh;
+}
+.div-hero-1{
+    background-image: linear-gradient(#7a7a7a57, #000000a6), url('home_img/CyclopeBinsC.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border-left: #000a43 solid 5px; */
+    /* border-bottom: #000a4e solid 5px; */
+    border-bottom: #000a4e solid 10px;
+}
+
+/* hero */
+.hero-content{
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* header */
+.header-hero{
+    font-family: "Black Ops One", system-ui;
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.header-hero:hover{
+    transform: translateY(-5px);
+    background-color: #0000007e;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+/* paragraph */
+.hero-text{
+    color: #eaeaea;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    padding: 10px 5px;
+    transition: 0.5s;
+}
+.hero-text:hover{
+    background-color: #0000007e;
+    border-radius: 15px;
+    margin: 40px 0;
+}
+
+/* button */
+.hero-button{
+    display: inline-flex;
+    /* background-color: #de362b; */
+    background: #de362b;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+    width: 200px;
+    justify-content: center;
+}
+.hero-button:hover{
+    background-color: #1F358E;
+    /* i cannot stop using it */
+    /* background: linear-gradient(to right, #de362b, #1F358E); */
+    padding: 12px 35px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 20px;
+    transform: translateY(-14px);
+}
+/* -x- */
+
+/* sections overhaul */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    scroll-snap-align: start;
+}
+section p, section ul li{
+    font-size: 18px;
+}
+/* -x- */
+
+/* section 1 */
+.sec1{
+    background-color: #eaeaea;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.h3d{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.sec1-waste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.sec-1-im{
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+
+.sec-1-im:hover{
+    transform: scale(1.05);
+}
+
+.s-1-img{
+    /* max-width: 400px; */
+    border-radius: 20px;
+    transition: 0.5s;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.s-1-img img{
+    width: 90%;
+    height: 210px;
+  object-fit: cover;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.s-1-img img:hover{
+    transform: translateY(-10px);
+    border:#000a4e solid 5px;
+    scale: 1.18;
+    margin: 10px;
+}
+
+.abt{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #de362b;
+    color: #EAEAEA;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+.abt:hover{
+    background-color: #1F358E;
+    padding: 8px 35px;
+    border-radius: 10px;
+    transform: translateY(10px);
+}
+
+.sec-1-tx{
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sec-1-tx p, li{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.sec-1-tx:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    scale: 1.1;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .sec-1-im img{
+        height: 200px;
+    } 
+}
+/* -x- */
+
+/* section 2 */
+.sec2{
+    background-color: #e6e4e4;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.sec2-waste{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.sec2-tx{
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sec2txcon{
+    transition: 0.7s;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sec2txcon:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-15px);
+    border-radius: 20px;
+     margin-top: 40px;
+     padding: 20px;
+     scale: 1.05;
+}
+
+.sec2-im{
+   border-radius: 50px;
+    transition: 0.5s;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.sec2-im img{
+    width: 90%;
+    height: auto;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.sec2-im img:hover{
+    transform: translateY(-10px);
+    border:#000a4e solid 5px;
+    scale: 1.1;
+    margin: 10px;
+}
+
+@media screen and (max-width: 599px) {
+    .sec2-im img{
+        width: 190px;
+        height: 330px;
+        transform: rotate(270deg);
+        
+    }
+
+    .sec2-im{
+        margin:0%;}
+}
+/* -x- */
+
+/* section 3 */
+.sec3{
+    background-color: #eaeaea;
+    width: 100%;
+    min-height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.sec3-waste{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+   
+}
+
+.imgs-3, .im3 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+ .imgs-3:hover{
+    transform: scale(1.05);
+} 
+
+.imgs-3 .im3 img:hover{
+    transform: translateY(-10px);
+    border-radius: 100px;
+    transform: scale(1.2);
+    border:#000a4e solid 3px;
+}
+
+.imgs-3 .im3 img{
+    width: 90%;
+    height: auto;
+    border-radius: 50px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.sec3-tx{
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.sec3-tx:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    scale: 1.05;
+     
+}
+
+.sec3-tx p, li{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 599px) {
+    .imgs-3 .im3 img{
+        width: 100px;
+        
+    }
+
+    .imgs-3 .im3{
+        width: 100px;
+    }
+}
+
+/* -x- */    
+
+@media screen and (max-width: 1200px) {
+    .sec-1, .sec-2, .sec-3 {
+        /* had to do some self-studying */
+        height: calc(auto + 50px); 
+    }
+}
+
+.sectionstart  h1:hover{
+    padding: 24px 12px;
+    border-radius: 15px;
+    transform: scale(1.05);
+    text-shadow: none;
+}
+
+.sectionstart h1{
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 38px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-shadow: #EAEAEA 2px 2px 4px;
+}

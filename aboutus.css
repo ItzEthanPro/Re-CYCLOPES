@@ -1,0 +1,346 @@
+.hero-sect-1 {
+    width: 100%;
+    min-height: 100vh;
+}   
+
+.hero-header h1 {
+    font-family: "Black Ops One", system-ui;
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+/* Heading Intro */
+.hero-header {
+    text-align: center;
+    width: 800px;
+    transition: 1s;
+}
+
+.hero-header:hover{
+    transition: 1s;
+    transform: translateY(-5px);
+    background-color: #0000006c;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+/* Intro paragraph */
+.hero-intro {
+    color: #eaeaea;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    padding: 10px 5px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.hero-intro:hover {
+    background-color: #0000006c;
+    border-radius: 15px;
+    margin: 40px 0;
+    z-index: 67676767;
+}
+
+
+/* Button */
+.hero-button a{
+    display: inline-flex;
+    background: #de362b;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+    width: 240px;
+    justify-content: center;
+    z-index: 67676767;
+}
+
+.hero-button a:hover{
+    background-color: #1F358E;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 20px;
+    transform: translateY(-14px);
+}
+
+/* Sect-1 <x> */
+
+.hero-sect-cards {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #eaeaea;
+    flex-wrap: wrap;
+}
+
+/* Goal */
+.hero-goal {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    margin: 10px 20px;
+    padding: 10px 20px 15px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-goal:hover {
+    transform: translateX(10px) translateY(10px);
+}
+
+.hero-goal-image {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.hero-goal-image img {
+    width: 20vw;
+   
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.hero-vision-text {
+    padding: 20px;
+}
+
+/* 2 Cards */
+.hero-vision, .hero-identity {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 10px 20px 15px;
+    margin: 1.5vh 20px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-vision:hover, .hero-identity:hover {
+    transform: translateX(10px) translateY(10px);
+    
+}
+
+/* Team */
+.hero-team {
+    background-image: linear-gradient(#00000035), url("blog_img/recycle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: #000a4e solid 10px;
+}
+
+.hero-team-header h1 {
+    text-align: center;
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 50px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-shadow: #eaeaea 2px 2px 8px;
+}
+
+.hero-team-header h1:hover{
+    font-size: 58px;
+}
+
+.hero-team-members {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.hero-team-member-1, .hero-team-member-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-member {
+    background-color: #eaeaea;
+    width: 600px;
+    min-height: 240px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: 0.3s;
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.15);
+    margin-bottom: 40px;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.2);
+}
+
+.team-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    transition: 0.5s;
+}
+.team-img:hover{
+    transform: translateY(-5px);
+}
+
+.hero-sect-header {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 40px 0 10px;
+}
+.hero-sect-header h1 {
+    font-size: 3rem;
+}
+
+.team-member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team-member-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.team-member-info p:last-child {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .hero-sect-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-team-members {
+        flex-direction: column;
+    }
+
+    .hero-header {
+        width: 90%;
+    }
+
+    .team-member {
+        width: auto;
+    }
+
+    
+}
+
+.questions{
+    background: url(aboutus_img/faq-bg.jpg);
+}
+
+.faq-section{
+    font-size: 16px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    height: 100vh;
+    overflow-y: auto;
+}
+.faq-section .div-st{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.faq-section summary{
+    font-weight: bold;
+    font-size: 18px;
+}
+.faq-section details{
+    margin: 1%;
+}
+.qs{
+    width: 100%;
+}
+/* details:focus-within {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #000a4e;
+    color: #e0e0e0;
+} */
+
+/* Style the opened one */
+    details[open] {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #000a4e;
+    color: #e0e0e0;
+}
+
+
+.qs:has(details[open]) details:not([open]) {
+    overflow: hidden;
+}
+
+.qs details summary {
+    cursor: pointer;
+    /* padding: 10px; */
+    border-radius: 10px;
+    /* margin-bottom: 5px; */
+    transition: 0.5s;
+}
+
+
+
+/* .faq-section .div-nd, .faq-section img{
+    width: 50%;
+}
+.faq-section .div-nd{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.qs-img{
+    display: flex;
+    justify-content: center;
+} */
+
+/* custom scrollbar */
+.faq-section::-webkit-scrollbar {
+    width: 5px;
+}
+
+.faq-section::-webkit-scrollbar-track {
+    background: #000a4d00;
+}
+
+.faq-section::-webkit-scrollbar-thumb {
+    /* background: linear-gradient(#000a4d, #EAEAEA, #E0E0E0); */
+    background: #fdfdfd;
+    /* border-left: #000a4d 2px solid; */
+    /* border-right: #000a4d 2px solid; */
+    /* border-radius: 20px; */
+}
+
+.faq-section::-webkit-scrollbar-thumb:hover {
+    background:  #555;
+    /* border-radius: 20px; */
+}

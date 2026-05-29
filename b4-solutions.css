@@ -1,0 +1,208 @@
+/* BLOG 4 SOLUTIONS START */
+/* body additional */
+html, body{
+    overflow-x: hidden;
+}
+
+/* hero start */
+.blog1{
+    background-image: linear-gradient(#00000035), url("blog_img/blog-4-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    border-bottom: #000a4e solid 10px;
+}
+
+.blog1 .blog_1 .blog1-header-1:hover{
+    background-color: #000000d0;
+    color: #EAEAEA;
+    padding: 24px 12px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    text-shadow: none;
+}
+
+.blog1 .blog_1 .blog1-header-1{
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-shadow: #EAEAEA 2px 2px 4px;
+}
+
+.blog1 .blog_1 .blog1-header-2:hover{
+    color: #eaeaea;
+    border-radius: 15px;
+    background-color: #000000d0;
+    padding: 24px 12px;
+    text-shadow: none;
+}
+
+.blog1 .blog_1 .blog1-header-2{
+    /* font-family: "Black Ops One", system-ui; */
+    font-family: 'Audiowide';
+    color: #000a4e;
+    font-weight: bold;
+    /* color: #000a4e; */
+    border-radius: 10px;
+    text-shadow: #EAEAEA 2px 2px 4px;
+    transition: 0.5s;
+}
+
+.b4-solutions{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eaeaea;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 50px 0;
+}
+
+.solution-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.solution-title h1{
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 45px;
+
+    transition: 0.5s;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.solution-title h1:hover{
+    background-color: #1a1a1a4f;
+    transform: translateY(-10px);
+}
+
+.solution-title h3{
+    color: #000a4e;
+    margin-top: 15px;
+
+    transition: 0.5s;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.solution-title h3:hover{
+    background-color: #1a1a1a4f;
+    transform: translateY(-10px);
+}
+
+.solution-container{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.solution-card{
+    background-color: #000a4e;
+    border-radius: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 25px;
+    padding: 20px;
+
+    transition: 0.5s;
+}
+
+.solution-card:hover{
+    transform: translateY(-10px);
+    border: solid black 3px;
+}
+
+.solution-img{
+    margin: auto;
+    text-align: center;
+}
+
+.solution-img img{
+    width: 90%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    transition: 0.5s;
+}
+
+.solution-img img:hover{
+    transform: translateY(-10px);
+    border-radius: 20px;
+}
+
+.solution-text{
+    padding: 20px;
+    color: #EAEAEA;
+}
+
+.solution-text h2{
+    margin-bottom: 20px;
+    font-family: "Audiowide", sans-serif;
+
+    transition: 0.5s;
+}
+
+.solution-text h2:hover{
+    transform: translateX(10px);
+}
+
+.solution-text p{
+    line-height: 1.8;
+    transition: 0.5s;
+}
+
+.solution-text p:hover{
+    font-weight: bold;
+}
+
+.solution-ending{
+    margin-top: 50px;
+
+    background-color: #000a4e;
+    color: #EAEAEA;
+
+    padding: 40px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    transition: 0.5s;
+}
+
+.solution-ending:hover{
+    transform: translateY(-10px);
+}
+
+.solution-ending h1{
+    font-family: "Black Ops One", system-ui;
+    margin-bottom: 20px;
+}
+
+.solution-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* BLOG 4 SOLUTIONS <X> */

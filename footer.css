@@ -1,0 +1,322 @@
+/* footer{ */
+    /* background-color: #313131; */
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* color: #f5f5f5; */
+    /* color: #6C6C6C; */
+/* } */
+
+footer{
+    background: #232323;
+    color: white;
+    /* padding-top: 30px; */
+    padding-top: 100px;
+    font-family: 'Segoe UI', sans-serif;
+
+    min-height: 60vh;
+
+    scroll-snap-align: start;
+    padding: 50px;
+}
+
+/* MAIN FOOTER CONTAINER */
+.footer{
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 80px;
+
+    flex-wrap: wrap;
+}
+
+/* LEFT | CENTER | RIGHT */
+.footer > div{
+    flex: 1;
+    min-width: 250px;
+}
+
+/* TITLES */
+footer h2{
+    font-size: 18px;
+    margin-bottom: 12px;
+
+    font-family: "audiowide";
+}
+/* trick i discovered accidently */
+footer h2::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #eaeaea;
+    /* background-color: #DE362B; */
+    margin-top: 6px;
+    border-radius: 2px;
+    transition: 0.2s ease-in;    /* cool animation, starts slowly */
+}
+footer h2:hover::after{
+    width: 100px;
+    background-color: #DE362B;
+}
+footer h2:hover{
+    color: #DE362B;
+}
+
+/* PARAGRAPH */
+footer p{
+    line-height: 1.7;
+    color: #e0e0e0;
+}
+
+/* LINKS */
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover{
+    color: #078ee0;
+}
+
+/* LISTS */
+footer ul{
+    list-style: disc;
+    padding-left: 18px;
+}
+
+footer li{
+    margin-bottom: 6px;
+}
+
+
+/* CONTACT */
+.contact-text{
+    margin-top: 15px;
+}
+
+/* FORM */
+footer form{
+    margin-top: 10px;
+}
+
+footer fieldset{
+    border: none;
+    padding: 0;
+}
+
+footer legend{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer label{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+footer input,
+footer textarea{
+    width: 100%;
+    max-width: 349px;
+    min-width: 349px;
+    padding: 8px;
+    margin-bottom: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    background: #f1f1f1;
+}
+footer textarea{
+    /* resize: vertical; *//* cool thing i learnt */
+    resize: none;
+    min-height: 60px;
+    max-width: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* RATING */
+.rating{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    margin: 14px 0;
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+    width: 28px;
+    height: 28px;
+
+    border-radius: 50px;
+    background: #444;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rating label:hover,
+.rating input:checked + label{
+    background: #DE362B;
+}
+
+/* BUTTONS */
+footer button{
+    width: 146px;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* TYPE SELECTORS */ /* i learnt this randomly lol */
+footer button[type="reset"]{
+    background: #FBC00E;
+}
+
+footer button[type="submit"]{
+    background: #078ee0;
+    color: white;
+}
+
+footer button:hover{
+    transform: translateY(-2px);
+    background-color: #DE362B;
+    color: #eaeaea;
+}
+/* footer button[type="reset"]:hover{
+    transform: translateY(-2px);
+    background-color: #DE362B;
+    color: #eaeaea;
+}
+
+    footer button[type="submit"]:hover{
+    transform: translateY(-2px);
+    background-color: #1F358E;
+    color: #eaeaea;
+} */
+
+
+.footer-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* SOCIALS */
+.footer-socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    margin-top: 18px;
+}
+
+.footer-socials i{
+    font-size: 26px;
+    transition: 0.3s;
+    border-radius: 13px;
+    color: #e0e0e0;
+}
+
+.footer-socials i:hover{
+    /* color: #DE362B; */
+    transform: translateY(-3px);
+    padding: 2px 7px;
+}
+
+.footer-socials .yt:hover{
+    /* color: #FF0000; */
+    color: #ffffff;
+    /* background-color: #ffffff; */
+    background: linear-gradient(to top right, #E52D27, #B31217);
+
+    border: #f1f1f1 2px solid;
+}
+.footer-socials .tt:hover{
+    color: #ffffff;
+    /* background-color: #000000; */
+    background: linear-gradient(to bottom right, #25F4EE, #000000, #000000, #000000, #FE2C55);
+    /* background: linear-gradient(to bottom right, #25F4EE, #000000, #000000, #FE2C55); */
+    /* background: linear-gradient(to bottom right, #FE2C55, #000000, #000000, #000000, #25F4EE); */
+    
+    /* border: #f1f1f1 2px solid; */
+    border-bottom: #FE2C55 2px solid;
+    border-right: #FE2C55 2px solid;
+
+    border-top: #25F4EE 2px solid;
+    border-left: #25F4EE 2px solid;
+}
+.footer-socials .ig:hover{
+    color: #ffffff;
+    /* background-color: #EA287D; */
+    background: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+
+    border: #f1f1f1 2px solid;
+}
+.footer-socials .tg:hover{
+    /* color: #0088CC; */
+    color: #ffffff;
+    /* background-color: #ffffff; */
+    background: linear-gradient(to top right, #3FA6D8, #51BFDF);
+    /* background: linear-gradient(to right, #1c92d2, #f2fcfe); */
+
+    border: #f1f1f1 2px solid;
+}
+.footer-socials .fb:hover{
+    color: #1877F2;
+    background-color: #ffffff;
+
+    border: #1877F2 2px solid;
+}
+.footer-socials .tx:hover{
+    color: #ffffff;
+    background-color: #000000;
+
+    border: #f1f1f1 2px solid;
+}
+
+/* SEE ALL REVIEWS
+.review-link{
+    display: inline-block;
+    margin-top: 10px;
+    color: #078ee0;
+} */ /* i changed my mind */
+
+/* COPYRIGHT */
+footer .copyright{
+    border-top: 1px solid #555;
+    margin-top: 30px;
+    padding: 15px 0;
+
+    text-align: center;
+    color: #CCCCCC;
+}
+/* -x- */
+
+/* body background */
+body{
+    background-color: #232323;
+}

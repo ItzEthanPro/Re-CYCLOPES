@@ -1,0 +1,135 @@
+/* body additional */
+html, body{
+    overflow-x: hidden;
+}
+
+/* hero start */
+.blog1{
+    background-image: linear-gradient(#00000035), url("blog_img/inkblue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    border-bottom: #000a4e solid 10px;
+}
+
+.blog1 .blog_1 .blog1-header-1:hover{
+    scale: 1.5;
+    padding: 24px 12px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    text-shadow: none;
+}
+
+.blog1 .blog_1 .blog1-header-1{
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 58px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-shadow: #fff 3px 5px  3px;
+}
+
+.blog1 .blog_1 .blog1-header-2:hover{
+    
+    border-radius: 15px;
+    scale: 1.5;
+    padding: 24px 12px;
+    
+}
+
+.blog1 .blog_1 .blog1-header-2{
+    /* font-family: "Black Ops One", system-ui; */
+    font-family: 'Audiowide';
+    color: #eaeaea;
+    font-weight: bold;
+    /* color: #000a4e; */
+    border-radius: 10px;
+    text-shadow: #1f358e 3px 5px  3px;
+    transition: 0.5s;
+}
+
+.aboutus-start{
+    background-color: #eaeaea;  
+    width: 100%;
+}
+
+.aboutus-start h1{
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 45px;
+    margin-top: 70px;
+    transition: 0.5s;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.aboutus-im  img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.goalus-im img{
+    width: 100%;
+    border-radius: 20px;
+}
+.vius-im img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.aboutus-us, .ourgoals, .ourvisions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aboutus-im {
+    margin-top: 3%;
+    margin: 20px;
+}
+
+.aboutustxt{
+    margin-top: 40px;
+    margin: 20px;;
+} 
+
+.abt{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.goalus-im{
+    margin-top: 3%;
+    margin: 20px;
+}
+
+.vius-im{
+    margin-bottom: 2%;
+    margin: 20px;
+}
+
+.goalustxt, .viustxt{
+    margin: 20px;;
+}
+
+.aboutus-im img, .goalus-im img{
+    transform: translateY(55px);
+}
+.aboutus-im img, .goalus-im img, .vius-im img{
+    transition: 0.5s;
+}
+
+.aboutus-im img:hover, .goalus-im img:hover{
+    transform: translateY(35px);
+}
+.vius-im img:hover{
+    transform: translateY(-20px);
+}

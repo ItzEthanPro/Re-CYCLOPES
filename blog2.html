@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ReCYCLOPES | Issue 2</title>
+        <link rel="shortcut icon" href="recyclope/branding/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="body.css">
+        <link rel="stylesheet" href="column.css">
+        <link rel="stylesheet" href="user.css">
+
+
+        <link rel="stylesheet" href="blog2.css">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+        <!-- Audiowide Google Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+        <!-- Black Ops One Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body id="top">
+        <div class="flash-overlay"></div>
+
+        <!-- NAV start -->
+        <nav>
+
+            <input type="checkbox" id="check">
+
+            <div class="nav-left">
+
+                <a href="index.html" class="logo" title="recyclopes">
+                    <img src="recyclope/branding/icon.png" alt="logo">
+                </a>
+
+                <a href="index.html" class="branding" title="cyclopes">Re:CYCLOPES</a>
+
+                <ul class="nav-links navmenu">
+
+                    <li>
+                        <a href="index.html" title="Welcome">
+                            HOME
+                        </a>
+                    </li>
+
+                    <li class="dropdown" title="Read.com">
+
+                        <a class="blog_parent active" href="blogs.html">
+                            Issues
+                            <i class="bi bi-caret-down-fill"></i>
+                        </a>
+
+                        <div class="dropdown-menu">
+
+                            <a href="blog1.html" title="Blog 1">
+                                Plastic Waste Pollution in Myanmar
+                            </a>
+
+                            <a href="blog2.html" title="Blog 2">
+                                Open Dumping and Landfill Problems
+                            </a>
+
+                            <a href="blog3.html" title="Blog 3">
+                                Food Waste and Organic Waste Problems
+                            </a>
+
+                            <a href="blog4.html" title="Blog 4">
+                                Lack of Recycling Awareness
+                            </a> 
+
+                            <a href="blog5.html" title="Blog 5" style="border-bottom: 3px #DE362B solid;">
+                                Building Sustainable Communities through "3Rs" method
+                            </a>
+
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <a href="solution.html">Solutions</a>
+                    </li>
+
+                    <li class="search_box">
+
+                        <input title="search a blog"
+                            class="search_blog"
+                            type="text"
+                            placeholder="Search Blogs...">
+
+                        <a href="blogs.html" title="Search">
+                            <i class="bi bi-search search_icon"></i>
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <ul class="right_nav navmenu">
+
+                <li>
+                    <a href="about.html" title="What/Who are WE?">
+                        About Us
+                    </a>
+                </li>
+
+                <li class="acc">
+                    <a title="Login & Register">
+                        <label for="RegisterCheck">Join Us</label>
+                    </a>
+                </li>
+
+                <li class="acc_icon">
+
+                    <a href="index.html" class="user_icon" title="User">
+                        <label for="RegisterCheck" class="user_icon" title="User">
+                            <img src="nav_img/account_default - Copy.png" alt="user">
+                        </label>
+                    </a>
+                </li>
+            </ul>
+            <label for="check" class="checkbtn">
+                <i class="bi bi-list"></i>
+            </label>
+        </nav>
+        <!-- NAV end -->
+
+
+        <!-- TOP start -->
+        <div>
+            <a href="#top" class="BackToTop" title="BackToTop">▲</a>
+        </div>
+        <!-- TOP end -->
+
+
+        <!-- ToggleMode start -->
+        <div>
+            <a href="about.html#faq" class="faq" title="FAQs">
+                !?
+            </a>
+        </div>
+        <!-- ToggleMode end -->
+
+
+        <!-- login & register -->
+        <!-- <input type="radio" id="CloseCheck" name="Checks" checked> -->
+        <!-- <label for="CloseCheck" class="CloseCheck"><i class="bi bi-x"></i></label> -->
+
+        <input type="radio" id="Exit" name="Checks" checked>
+        <label for="Exit" class="exit"><i class="bi bi-x"></i></label>
+        <input type="radio" id="LoginCheck" name="Checks">
+ 
+        <input type="radio" id="LoginCheck" name="Checks">
+        <div class="login-sector">
+            <section class="login-box">
+                <form method="POST" class="formLogin">
+                    <h2>Login</h2>
+
+                    <div class="user-box" id="usrbox">
+                        <label for="usrinput">Username</label><br>
+                        <input type="text" name="username" id="usrinput" class="input-box" placeholder="Enter your username" required>      
+                    </div>
+                    
+                    <div class="user-box" id="embox">
+                        <label for="eminput">E-mail</label><br>
+                        <input type="text" name="email" id="eminput" class="input-box" placeholder="Enter your e-mail" required>
+                    </div>
+
+                    <div class="user-box" id="pswbox">
+                        <label for="pswinput">Password</label><br>
+                        <input type="password" name="password" id="pswinput" class="input-box" placeholder="Enter your password">
+                    </div>
+
+                    <a href="account.html" title="Login">Log-in</a>
+
+                    <label for="RegisterCheck" class="sgl">Don't have an account? Sign up today!</label>
+                </form>
+
+                <div class="login-img">
+                    <img src="solution_img/sol-2.jpg" alt="waste management" id="login-img">
+                </div>
+            </section>
+        </div>
+ 
+        <input type="radio" id="RegisterCheck" name="Checks">
+        <div class="register-sector">
+            <section class="register-box">
+                <label for="Exit" class="exit"><i class="bi bi-x"></i></label>
+                <div class="register-img">
+                    <img src="blog_img/blog1img.jpg" alt="waste management" id="register-img">
+                </div>
+                <form method="POST" class="formRegister" action="account.html">
+                    <h2>Register</h2>
+ 
+                    <div class="user-box" id="embox">
+                        <label for="eminput">E-mail</label><br>
+                        <input type="text" name="email" id="eminput" class="input-box" placeholder="Enter your e-mail" required>
+                    </div>
+                    <div class="user-box" id="usrbox">
+                        <label for="usrinput">Username</label><br>
+                        <input type="text" name="username" id="usrinput" class="input-box" placeholder="Enter your username" required>      
+                    </div>
+ 
+                    <div class="user-box" id="pswbox">
+                        <label for="pswinput">Password</label><br>
+                        <input type="password" name="password" id="pswinput" class="input-box" placeholder="Enter your password">
+                    </div>
+ 
+                    <input type="submit" onclick="alert('Welcome back!')">
+ 
+                    <label for="LoginCheck" class="sil">Already have an account? Sign in!</label>
+                </form>
+            </section>
+        </div>
+
+
+        <input type="radio" id="RegisterCheck" name="Checks">
+
+        <div class="register-sector">
+
+            <section class="register-box">
+                <!-- <a href="" id="close-btn"><i class="bi bi-x"></i></a> -->
+
+                <div class="register-img">
+
+                    <img src="blog_img/blog6img.jpg"
+                        alt="waste management"
+                        id="register-img">
+
+                </div>
+
+                <form method="POST" class="formRegister">
+
+                    <h2>Register</h2>
+
+                    <div class="user-box" id="embox">
+
+                        <label for="eminput">E-mail</label>
+                        <br>
+
+                        <input type="text"
+                            name="email"
+                            id="eminput"
+                            class="input-box"
+                            placeholder="Enter your e-mail"
+                            required>
+
+                    </div>
+
+                    <div class="user-box" id="usrbox">
+
+                        <label for="usrinput">Username</label>
+                        <br>
+
+                        <input type="text"
+                            name="username"
+                            id="usrinput"
+                            class="input-box"
+                            placeholder="Enter your username"
+                            required>
+
+                    </div>
+
+                    <div class="user-box" id="pswbox">
+
+                        <label for="pswinput">Password</label>
+                        <br>
+
+                        <input type="password"
+                            name="password"
+                            id="pswinput"
+                            class="input-box"
+                            placeholder="Enter your password">
+
+                    </div>
+
+                    <a href="account.html" title="Login">
+                        Sign-up
+                    </a>
+
+                    <label for="LoginCheck" class="sil">
+                        Already have an account? Sign in!
+                    </label>
+
+                </form>
+
+            </section>
+
+        </div>
+
+
+        <!-- CONTENT start -->
+
+        <!-- blog issue start -->
+         <div class="blog1" id="blog1">
+            <div class="blog_1 col-6">
+                <h1 class="blog1-header-1">ISSUE 2</h1>
+                <hr>
+                <h1 class="blog1-header-2">Open Dumping and Landfill Problems</h1>
+            </div>
+        </div>
+
+<div class="issuestart2">
+       <div class="blog2">
+            <h1>Open Dumping and Landfill Problems in Yangon</h1>
+
+            <div class="conissue col-11">
+
+                <div class="b2is col-5">
+                    <img src="blog2_img/o1.jpg" alt="Open Landfill">
+                    <h3>Open Landfill in Dala Town</h3>
+                </div>
+
+                <div class="b2ig col-6">
+                    <p>In many parts of Myanmar, waste is disposed of in open dumping sites instead of properly managed landfills. These dumping areas often contain mixed waste including food waste, plastics, chemicals, and other harmful materials. <br> <br> Many landfill sites are overcrowded and lack proper waste treatment systems. During rainy seasons, waste spreads into nearby communities and waterways. </p>
+                </div>
+
+            </div>
+            <a href="#effectb2" class="abt">What are the Effects?</a>
+       </div>
+       <!-- end -->
+
+        <div class="sec3 col-12" id="effectb2">
+
+            <div class="sec3-waste col-12">
+                <div class="imgs-3 col-10">
+                    <div class="im3 col-3 col-s-3"><img src="blog2_img/ef1.jpg" alt="waste"></div>
+                    <div class="im3 col-3 col-s-3"><img src="blog2_img/ef11.jpg" alt="waste"></div>
+                    <div class="im3 col-3 col-s-3"><img src="blog2_img/ef3.jpg" alt="waste"></div>
+                </div>
+
+                <div class="sec3-tx col-8  col-s-8">
+                    <h1>Enviromental Effects</h1>
+
+                    <p>
+                        <ul>
+                            <li>Waste can cause soil and groundwater contamination, making the environment unsafe for plants, animals, and people.</li>
+                            <li>Air pollution from waste decomposition and burning can harm human health and increase environmental problems.</li>
+                            <li>Bad odors from waste can affect nearby communities and make the area uncomfortable to live in.</li>
+                        </ul>
+
+                    </p>
+<!--                     
+                    <a href="#set3" class="abt">See More</a> -->
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!-- effects -->
+         <div class="morden-sol2" id="morden-sol2">
+
+            
+
+            <div class="sol-1-f col-11 col-11">
+                <div class="sol-txt2 col-5">
+                     <h1>Health Effects</h1>
+                     <p><ul>
+                        <li>In Myanmar, poor waste management can increase the spread of diseases carried by pests such as rats and mosquitoes, especially during the rainy season.</li>
+                        <li>Open burning of waste in many communities contributes to air pollution and respiratory problems among residents.</li>
+                        <li>People living near landfill sites and illegal dumping areas in Myanmar often face unsafe and unhealthy living conditions.</li>
+                     </ul></p>
+                </div>
+
+                <div class="sol-img2 col-7">
+                 <div><img src="blog2_img/ra1.jpg" alt="recycable items"></div>
+                 <div><img src="blog2_img/ra2.jpg" alt="wastemanage"></div>
+                </div>
+            </div>
+
+            <div class="sol-1-s col-11">
+                <div class="sol-txt2 col-5">
+                    <h1>Infrastructure Effects</h1>
+                 <p>In Myanmar, blocked waterways caused by improperly disposed waste can lead to serious flooding during heavy rainfall. Waste pollution also damages local environments and makes public areas dirty, unhealthy, and unpleasant for communities.</p>
+                </div>
+
+                <div class="sol-img1 col-7">
+                 <div><img src="blog2_img/block.jpg" alt="wastemanage"></div>
+                 <div><img src="blog2_img/block1.jpg" alt="wastemanage"></div>
+                </div>
+            </div>
+            <div class="d">
+            <a href="solution2.html" class="morden-sol">Discover Solutions</a></div>
+                </div>
+</div>
+
+
+        <!-- footer -->
+        <footer class="row">
+
+            <div class="col-10 footer">
+
+                <!-- part 1 -->
+                <div class="col-6">
+
+                    <div>
+
+                        <h2>Our Mission</h2>
+
+                        <p>
+                            We aim to educate individuals on smart waste management,
+                            promote eco-friendly and sustainable living and smart technologies,
+                            <br>
+                            and engage communities in conservation-reducing pollution
+                            and improving public health in Myanmar.
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h2>Contact Us</h2>
+
+                        <p class="contact-text">
+                            <i class="bi bi-globe2"></i>
+                            Website:
+                            <a href="index.html">
+                                recyclopes.com
+                            </a>
+                            <br>
+
+                            <i class="bi bi-envelope"></i>
+                            Email:
+                            <a href="mailto:recyclopes@gmail.com">
+                                recyclopes@gmail.com
+                            </a>
+
+                            <br>
+
+                            <i class="bi bi-phone"></i>
+                            Phone: +95 912 345 6789 <br> +95 978 257 0025 | +95 926 036 5112
+
+                            <br>
+
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Location: no.42A, Dhamaseintar Street,
+                            <br>
+                            Kyarr Kwat Thit Ward,
+                            KyaungMyaung,
+                            TamweTownship,
+                            Yangon,
+                            Myanmar (🇲🇲)
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Links -->
+                <div class="col-6">
+
+                    <div>
+
+                        <h2>Quick Links</h2>
+
+                        <ul>
+
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="blogs.html">Issues</a>
+                            </li>
+
+                            <li>
+                                <a href="solution.html">Solutions</a>
+                            </li>
+
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+
+                            <li>
+
+                                <a title="Login & Register">
+                        <label for="">Join Us</label>
+                    </a>
+
+                                <ul>
+
+                                    <li>
+                                        <a title="Login & Register">
+                        <label for="RegisterCheck">Register</label>
+                    </a>
+                                    </li>
+
+                                    <li>
+                                        <a title="Login & Register">
+                        <label for="LoginCheck">Login</label>
+                    </a>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                            <li>
+                                <a href="https://edusn-my.sharepoint.com/:w:/g/personal/hnindeparlwin_edusndigitalschool_com/IQCO2b_CJYkxSqupObyOFs6KAUMOV4gdwhn4sIzk7SI6tuM?e=uzVLWx">References</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div style="margin-top:20px;" class="blogs-footer">
+
+                        <h2>Blogs</h2>
+
+                        <ul>
+
+                            <li>
+                                <a href="blog1.html">
+                                    Plastic Waste Pollution in Myanmar
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="blog2.html">
+                                    Open Dumping and Landfill Problems
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="blog3.html">
+                                    Food Waste and Organic Waste Problems
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="blog4.html">
+                                    Lack of Recycling Awareness
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="blog5.html">
+                                    Building Sustainable Communities through 3Rs
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- Feedback -->
+                <div class="col-4">
+                    <form action="">
+                        <fieldset>
+                            <legend>Feedback</legend>
+
+                            <label for="name"><b>Name:</b></label>
+                            <input class="col-8" type="text" id="name" name="name" placeholder="Your Name" required>
+
+                            <label for="email"><b>Email:</b></label>
+                            <input class="col-8" type="email" id="email" name="email" placeholder="Your mail" required>
+
+                            <label for="feedback"><b>Feedback:</b></label>
+                            <textarea class="col-8" id="feedback" name="feedback" placeholder="Your Feedback" required></textarea>
+
+                            <label for="rate"><b>Rate Us :</b></label>
+
+                            <div class="rating">
+                                <input type="radio" id="star1" name="rate" value="1" required>
+                                <label for="star1">1</label>
+
+                                <input type="radio" id="star2" name="rate" value="2">
+                                <label for="star2">2</label>
+
+                                <input type="radio" id="star3" name="rate" value="3">
+                                <label for="star3">3</label>
+
+                                <input type="radio" id="star4" name="rate" value="4">
+                                <label for="star4">4</label>
+
+                                <input type="radio" id="star5" name="rate" value="5">
+                                <label for="star5">5</label>
+                            </div>
+
+                            <div class="footer-buttons">
+                                <button type="reset">Cancel</button>
+                                <button type="submit" onclick="alert('Submitted')">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <div class="footer-socials">
+                        <a target="_blank" href="http://www.youtube.com/@ReCYCLONES-4" title="YouTube">
+                            <i class="bi bi-youtube yt"></i>
+                        </a>
+
+                        <a target="_blank" href="https://www.tiktok.com/@cyclones194" title="TikTok">
+                            <i class="bi bi-tiktok tt"></i>
+                        </a>
+
+                        <a target="_blank" href="https://www.instagram.com/cyclones.edu4?igsh=b2QwMXltaTFpdjdh" title="Instagram">
+                            <i class="bi bi-instagram ig"></i>
+                        </a>
+
+                        <a target="_blank" href="https://t.me/cyclones_edu" title="Telegram">
+                            <i class="bi bi-telegram tg"></i>
+                        </a>
+
+                        <a target="_blank" href="https://www.facebook.com/share/14fAJfno6qL/" title="Facebook">
+                            <i class="bi bi-facebook fb"></i>
+                        </a>
+
+                        <a target="_blank" href="https://x.com/cyclones194" title="X">
+                            <i class="bi bi-twitter-x tx"></i>
+                        </a>
+                    </div>
+
+                    <!-- <a href="" class="review-link">See All Reviews →</a> -->
+                </div>
+            </div>
+
+            <div class="copyright">
+                © Copyright 2026 | Re:CYCLOPES | All Rights Reserved
+            </div>
+
+        </footer>
+
+
+
+        
+    </body>
+</html>

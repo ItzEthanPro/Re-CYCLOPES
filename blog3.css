@@ -1,0 +1,253 @@
+/* body additional */
+html, body{
+    overflow-x: hidden;
+}
+
+/* hero start */
+.blog1{
+    background-image: linear-gradient(#00000035), url("blog2_img/opendumping.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    border-bottom: #000a4e solid 10px;
+}
+
+.blog1 .blog_1 .blog1-header-1:hover{
+    background-color: #000000d0;
+    color: #EAEAEA;
+    padding: 24px 12px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    text-shadow: none;
+}
+
+.blog1 .blog_1 .blog1-header-1{
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-shadow: #EAEAEA 2px 2px 4px;
+}
+
+.blog1 .blog_1 .blog1-header-2:hover{
+    color: #eaeaea;
+    border-radius: 15px;
+    background-color: #000000d0;
+    padding: 24px 12px;
+    text-shadow: none;
+}
+
+.blog1 .blog_1 .blog1-header-2{
+    /* font-family: "Black Ops One", system-ui; */
+    font-family: 'Audiowide';
+    color: #000a4e;
+    font-weight: bold;
+    /* color: #000a4e; */
+    border-radius: 10px;
+    text-shadow: #EAEAEA 2px 2px 4px;
+    transition: 0.5s;
+}
+
+
+/* Blog issue start */
+.blog2{
+    width: 100%;
+    min-height: 90vh;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.blog2 h1{
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 40px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.blog2 h1:hover{
+    scale: 1.1;
+    transform: translateY(10px);
+}
+.conissue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+
+.b2is{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    transition: 0.5s;
+}
+
+.b2is:hover{
+    box-shadow: 0px 0px 10px #1f358e;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    padding: 20px;
+}
+
+.b2is img{
+    width:90%;
+    height: auto;
+    border-radius: 10px;
+}
+.b2ig{
+    padding: 20px;
+    text-align: justify;
+    transition: 0.5s;
+}
+.b2ig:hover{
+    box-shadow: 0px 0px 10px #1f358e;
+    border-radius: 15px;
+    transform: translateY(-10px);
+}
+.abt{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #de362b;
+    color: #EAEAEA;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+.abt:hover{
+    background-color: #1F358E;
+    padding: 8px 35px;
+    border-radius: 10px;
+    transform: translateY(10px);
+}
+/* end */
+
+/* effects */
+.b1-effect{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eaeaea;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.effect_b1{
+    margin: auto;
+    justify-content: center;
+}
+
+.effect_b1 h1{
+    font-family: "Black Ops One", system-ui;
+    color: #000a4e;
+    font-size: 45px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.effect_b1 h1:hover{
+    background-color: #1a1a1a4f;
+    padding: 24px 12px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+}   
+
+.effect_b1 h3{
+    color: #000a4e;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.effect_b1 h3:hover{
+    background-color: #1a1a1a4f;
+    padding: 14px 12px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+}
+
+.env_effect{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+}
+
+.env_effect .card:hover{
+            border-radius: 20px;
+            background-color: #1f358e;
+            transform: translateY(-10px);
+}
+.env_effect .card:hover > .card_txt{
+    color: #EAEAEA;
+}
+.env_effect .card{
+            border-radius: 15px;
+            background-color: #1a1a1a4f;
+            justify-content: space-between;
+            text-align: center;
+            padding: 10px;
+            transition: 0.5s;
+            margin: 50px 20px;
+            /* max-height: 320px; */
+        }
+.env_effect .card img:hover{
+            border-radius: 20px;
+            background-color: #1f358e;
+            transform: translateZ(-10px);
+        
+}
+.card img{
+            width: 100%;
+            height: 160px;
+            border-radius: 7px;
+            transition: 0.5s;
+        }
+
+.env_effect .card .card_txt:hover{
+            font-weight: 600;
+            transform: translateY(10px);
+}
+
+.env_effect .card .card_txt{
+            color: #000a4e;
+            transition: 0.5s;
+}
+
+.b1-effect .effect_n_b{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #de362b;
+    height: 50px;
+    text-decoration: none;
+    color: #EAEAEA;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-align: center;
+    
+}
+
+.b1-effect .effect_n_b:hover{
+    background-color: #1f358e;
+    color: #EAEAEA;
+    padding: 12px 50px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+}
