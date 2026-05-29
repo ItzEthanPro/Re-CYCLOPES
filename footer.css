@@ -136,6 +136,7 @@ footer textarea{
 }
 footer textarea{
     /* resize: vertical; *//* cool thing i learnt */
+    resize: horizontal;
     resize: none;
     min-height: 60px;
     /* max-width: 60px; */
