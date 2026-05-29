@@ -124,8 +124,8 @@ footer label{
 footer input,
 footer textarea{
     /* width: 100%; */
-    min-width: 349px;
-    /* min-width: 271px; */
+    /* max-width: 349px; */
+    min-width: 265px;
     padding: 8px;
     margin-bottom: 10px;
 
